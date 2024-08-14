@@ -1,39 +1,40 @@
+import { Link, NavLink } from "react-router-dom"
 
 export const Header = () => {
     return (
         <>
             <header className="header" id="header">
                 <nav className="nav container">
-                    <a href="#" className="nav__logo"> Shop. </a>
+                    <Link to="/" className="nav__logo"> Shop. </Link>
 
                     <div className="nav__menu" id="nav-menu">
                         <ul className="nav__list">
                             <li className="nav__item">
-                                <a href="#home" className="nav__link active-link">
+                                <NavLink to="/" className="nav__link active-link">
                                     <i className="ri-home-line"></i>
                                     <span>Home</span>
-                                </a>
+                                </NavLink>
                             </li>
 
                             <li className="nav__item">
-                                <a href="#new" className="nav__link">
+                                <NavLink to="/new" className="nav__link">
                                     <i className="ri-price-tag-3-line"></i>
                                     <span>New</span>
-                                </a>
+                                </NavLink>
                             </li>
 
                             <li className="nav__item">
-                                <a href="#collection" className="nav__link">
+                                <NavLink to="/collection" className="nav__link">
                                     <i className="ri-compass-line"></i>
                                     <span>Collection</span>
-                                </a>
+                                </NavLink>
                             </li>
 
                             <li className="nav__item">
-                                <a href="#products" className="nav__link">
+                                <NavLink to="/products" className="nav__link">
                                     <i className="ri-t-shirt-line"></i>
                                     <span>Products</span>
-                                </a>
+                                </NavLink>
                             </li>
                         </ul>
                     </div>

@@ -15,11 +15,11 @@ export const Collection = () => {
                             </a>
                         </div>
 
-                        <img src="assets/img/collection1.jpg" alt="collection image" />
+                        <img src="src/assets/img/collection1.jpg" alt="collection image" />
                     </div>
 
                     <div className="collection__explore">
-                        <img src="assets/img/collection2.jpg" alt="collection image" />
+                        <img src="src/assets/img/collection2.jpg" alt="collection image" />
 
                         <div className="collection__data-women">
                             <h2 className="collection__title">

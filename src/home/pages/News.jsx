@@ -1,5 +1,8 @@
+import { useEffect } from "react";
 
-export const Nuevo = () => {
+export const News = () => {
+
+
     return (
         <>
             <section className="new section" id="new">
@@ -7,7 +10,9 @@ export const Nuevo = () => {
 
                 <div className="new__container container grid">
                     <article className="new__card">
-                        <img src="assets/img/new1.png" alt="new image" className="new__img" />
+                        
+                        <img src="/src/assets/img/new1.png" alt="new image" className="new__img" />
+
 
                         <a href="#" className="new__link">
                             <div className="new__data">
@@ -20,7 +25,7 @@ export const Nuevo = () => {
                     </article>
 
                     <article className="new__card">
-                        <img src="assets/img/new2.png" alt="new image" className="new__img" />
+                        <img src="src/assets/img/new2.png" alt="new image" className="new__img" />
 
                         <a href="#" className="new__link">
                             <div className="new__data">
@@ -33,7 +38,7 @@ export const Nuevo = () => {
                     </article>
 
                     <article className="new__card">
-                        <img src="assets/img/new3.png" alt="new image" className="new__img" />
+                        <img src="src/assets/img/new3.png" alt="new image" className="new__img" />
 
                         <a href="#" className="new__link">
                             <div className="new__data">

@@ -10,6 +10,7 @@ export default [
     ignores: ['dist'],
     languageOptions: {
       ecmaVersion: 2020,
+      react:true,
       globals: globals.browser,
       parserOptions: {
         ecmaVersion: 'latest',
