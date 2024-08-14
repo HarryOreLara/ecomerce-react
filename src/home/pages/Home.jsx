@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 
 export const Home = () => {
     return (
@@ -14,9 +15,9 @@ export const Home = () => {
                             las mejores marcas este año.
                         </p>
 
-                        <a href="#new" className="button__link">
+                        <Link to="/collection" className="button__link">
                             Explorar <i className="ri-arrow-right-line"></i>
-                        </a>
+                        </Link>
                     </div>
 
                     <div className="home__images">
